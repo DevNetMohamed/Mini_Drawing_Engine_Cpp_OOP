@@ -1,1 +1,53 @@
-# Mini_Drawing_Engine
+# 🎨 Mini Drawing Engine - C++ OOP Project
+
+A sophisticated C++ drawing engine demonstration showcasing advanced Object-Oriented Programming concepts including polymorphism, abstract classes, and virtual functions.
+
+## 📋 Description
+
+This project implements a flexible drawing engine that can handle multiple geometric shapes through a unified interface. It demonstrates professional C++ practices and deep understanding of OOP principles.
+
+## 🚀 Key Features
+
+- **Abstract Base Class**: `Drawable` with pure virtual functions
+- **Multiple Shape Implementations**: Circle, Rectangle, Triangle
+- **Polymorphic Behavior**: Runtime method resolution
+- **Memory Management**: Proper dynamic allocation and deallocation
+- **Vector Storage**: Base class pointer collection
+
+## 🧠 OOP Concepts Demonstrated
+
+### Core Concepts
+- ✅ **Pure Virtual Functions** - Abstract methods requiring implementation
+- ✅ **Abstract Classes** - Cannot be instantiated, serves as interface
+- ✅ **Runtime Polymorphism** - Dynamic method binding
+- ✅ **Virtual Destructor** - Proper cleanup in inheritance hierarchy
+- ✅ **Function Overriding** - Derived class implementations
+- ✅ **Base Class Implementation** - Calling parent class methods
+
+### Advanced Features
+- ✅ Dynamic memory allocation
+- ✅ STL Vector with base pointers
+- ✅ Multiple inheritance scenarios
+- ✅ Memory leak prevention
+
+## 📁 Project Structure
+MiniDrawingEngine/
+│
+├── 📄 Drawable.h # Abstract base class definition
+├── 📄 Drawable.cpp # Base class implementation
+├── 📄 Circle.h # Circle derived class
+├── 📄 Circle.cpp # Circle implementation
+├── 📄 Rectangle.h # Rectangle derived class
+├── 📄 Rectangle.cpp # Rectangle implementation
+├── 📄 Triangle.h # Triangle derived class
+├── 📄 Triangle.cpp # Triangle implementation
+└── 📄 main.cpp # Program entry point
+
+Shape Implementations
+Circle: π × r² area calculation
+
+Rectangle: width × height area calculation
+
+Triangle: ½ × base × height area calculation
+
+
