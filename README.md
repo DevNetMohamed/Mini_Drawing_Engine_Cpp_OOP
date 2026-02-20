@@ -30,24 +30,11 @@ This project implements a flexible drawing engine that can handle multiple geome
 - ✅ Multiple inheritance scenarios
 - ✅ Memory leak prevention
 
-## 📁 Project Structure
-MiniDrawingEngine/
-│
-├── 📄 Drawable.h # Abstract base class definition
-├── 📄 Drawable.cpp # Base class implementation
-├── 📄 Circle.h # Circle derived class
-├── 📄 Circle.cpp # Circle implementation
-├── 📄 Rectangle.h # Rectangle derived class
-├── 📄 Rectangle.cpp # Rectangle implementation
-├── 📄 Triangle.h # Triangle derived class
-├── 📄 Triangle.cpp # Triangle implementation
-└── 📄 main.cpp # Program entry point
 
-Shape Implementations
-Circle: π × r² area calculation
 
-Rectangle: width × height area calculation
-
-Triangle: ½ × base × height area calculation
+### Shape Implementations
+- ✅ Circle: π × r² area calculation
+- ✅ Rectangle: width × height area calculation
+- ✅ Triangle: ½ × base × height area calculation
 
 
